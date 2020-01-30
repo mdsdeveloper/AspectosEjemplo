@@ -20,6 +20,8 @@ public class Aspectos {
         Object proceed = pjp.proceed();
         log.info("Aquí estoy después de ejecutar el método");
 
+        log.info("ESto es una prueba con git");
+
         return proceed;
     }
 
