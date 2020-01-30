@@ -21,6 +21,7 @@ public class Aspectos {
         log.info("Aquí estoy después de ejecutar el método");
 
         log.info("Cambiado desde la rama");
+        
         return proceed;
     }
 
