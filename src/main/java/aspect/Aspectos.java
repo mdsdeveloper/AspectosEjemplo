@@ -22,6 +22,9 @@ public class Aspectos {
 
         log.info("Cambiado desde la rama");
 
+
+
+
         
         return proceed;
     }
