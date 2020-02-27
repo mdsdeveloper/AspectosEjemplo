@@ -20,7 +20,7 @@ public class Aspectos {
         Object proceed = pjp.proceed();
         log.info("Aquí estoy después de ejecutar el método");
         
-
+        log.info("nuevo dato");
 
         log.info("Cambiado desde la rama");
         return proceed;
