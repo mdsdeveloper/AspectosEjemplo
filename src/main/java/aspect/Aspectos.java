@@ -16,11 +16,9 @@ public class Aspectos {
     @Around("miAnotacion()")
     public Object miAnotacion(ProceedingJoinPoint pjp) throws Throwable{
 
-        log.info("Aquí estoy antes de ejecutar el método");
+        log.info("Esto si que se queda");
         Object proceed = pjp.proceed();
-        log.info("Aquí estoy después de ejecutar el método");
 
-        log.info("Cambiado desde la rama");
         return proceed;
     }
 
