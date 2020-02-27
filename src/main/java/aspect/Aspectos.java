@@ -18,7 +18,7 @@ public class Aspectos {
 
         log.info("Esto si que se queda");
         Object proceed = pjp.proceed();
-        
+
 
         return proceed;
     }
